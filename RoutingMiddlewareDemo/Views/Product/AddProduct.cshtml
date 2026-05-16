@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<div>Add Product View</div>
+
+
+<script>
+$(function(){
+    $.ajax({
+                    url: "/InsertProduct",
+        type: "POST",
+        data: JSON.stringify({
+            Id: 1,
+            ProductName: "First Product"
+        }),
+        contentType: "application/json",
+        success: function(response){
+            console.log(response.message);
+        },
+        error: function(response){
+            console.log(response.responseJSON.message);
+        }
+    });
+});
+
+</script>
