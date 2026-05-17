@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net9.0": {
       "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.0": {
@@ -983,39 +983,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/brp7892/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\JWT Token\\RefreshTokenDemo\\RefreshTokenDemo.csproj",
+      "projectUniqueName": "/Users/brp7892/D/JWT/Jwt/RefreshTokenDemo/RefreshTokenDemo.csproj",
       "projectName": "RefreshTokenDemo",
-      "projectPath": "D:\\JWT Token\\RefreshTokenDemo\\RefreshTokenDemo.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\JWT Token\\RefreshTokenDemo\\obj\\",
+      "projectPath": "/Users/brp7892/D/JWT/Jwt/RefreshTokenDemo/RefreshTokenDemo.csproj",
+      "packagesPath": "/Users/brp7892/.nuget/packages/",
+      "outputPath": "/Users/brp7892/D/JWT/Jwt/RefreshTokenDemo/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/brp7892/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\JWT Token\\DemoAPI.DAL\\DemoAPI.DAL.csproj": {
-              "projectPath": "D:\\JWT Token\\DemoAPI.DAL\\DemoAPI.DAL.csproj"
+            "/Users/brp7892/D/JWT/Jwt/DemoAPI.DAL/DemoAPI.DAL.csproj": {
+              "projectPath": "/Users/brp7892/D/JWT/Jwt/DemoAPI.DAL/DemoAPI.DAL.csproj"
             }
           }
         }
@@ -1030,10 +1024,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net9.0": {
+        "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
@@ -1056,6 +1051,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.16, 9.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[9.0.16, 9.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.16, 9.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1064,7 +1073,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

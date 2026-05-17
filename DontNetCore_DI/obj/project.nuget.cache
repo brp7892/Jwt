@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "2Fyl8eUdexw=",
+  "dgSpecHash": "zgE8+m1ZsyI=",
   "success": true,
-  "projectFilePath": "D:\\JWT Token\\DontNetCore_DI\\DontNetCore_DI.csproj",
+  "projectFilePath": "/Users/brp7892/D/JWT/Jwt/DontNetCore_DI/DontNetCore_DI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "/Users/brp7892/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/brp7892/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/Users/brp7892/.nuget/packages/microsoft.netcore.app.ref/9.0.16/microsoft.netcore.app.ref.9.0.16.nupkg.sha512",
+    "/Users/brp7892/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.16/microsoft.aspnetcore.app.ref.9.0.16.nupkg.sha512",
+    "/Users/brp7892/.nuget/packages/microsoft.netcore.app.host.osx-arm64/9.0.16/microsoft.netcore.app.host.osx-arm64.9.0.16.nupkg.sha512"
   ],
   "logs": []
 }
